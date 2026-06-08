@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="‫الصفحة-1‬" id="KqyZPWhx9IiLjkiPmi3q">
+    <mxGraphModel dx="729" dy="742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="الوثيقة المصدرية &#xa; فاتورة، سند، عقد، إشعار" vertex="1">
+          <mxGeometry height="63" width="157" x="197" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#1a5276;strokeColor=#113d5c;fontColor=#fff;" value="اعتماد العملية في نظام AXIS" vertex="1">
+          <mxGeometry height="54" width="209" x="171" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rhombus;strokeWidth=2;whiteSpace=wrap;fillColor=#2980b9;strokeColor=#1a5276;fontColor=#fff;" value="محرك التوليد والترحيل الآلي &#xa; Automated Posting Engine" vertex="1">
+          <mxGeometry height="265" width="265" x="143" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#f2f4f4;strokeColor=#707b7c;fontColor=#2c3e50;" value="دفتر اليومية العام" vertex="1">
+          <mxGeometry height="73" width="102" x="8" y="602" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#f2f4f4;strokeColor=#707b7c;fontColor=#2c3e50;" value="دفتر الأستاذ &#xa; Ledger" vertex="1">
+          <mxGeometry height="91" width="75" x="160" y="593" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#f2f4f4;strokeColor=#707b7c;fontColor=#2c3e50;" value="ميزان المراجعة اللحظي &#xa; Trial Balance" vertex="1">
+          <mxGeometry height="102" width="136" x="285" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#eafaf1;strokeColor=#27ae60;fontColor=#145a32;" value="القوائم المالية التلقائية &#xa; المركز المالي، الدخل" vertex="1">
+          <mxGeometry height="100" width="123" x="471" y="589" as="geometry" />
+        </mxCell>
+        <mxCell id="9" edge="1" parent="1" source="2" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="3" value="إدخال مـرة واحـدة">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" edge="1" parent="1" source="3" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="4" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.89;entryX=0.5;entryY=0.01;" target="5" value="تحديث آني ومتزامن">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="59" y="551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="4" style="curved=1;startArrow=none;endArrow=block;exitX=0.27;exitY=1;entryX=0.5;entryY=0;" target="6" value="تحديث آني ومتزامن">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="197" y="551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" source="4" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=1;entryX=0.5;entryY=0;" target="7" value="تحديث آني ومتزامن">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="353" y="551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.83;entryX=0.5;entryY=0;" target="8" value="تحديث آني ومتزامن">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="532" y="551" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
